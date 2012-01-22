@@ -1,0 +1,27 @@
+
+Push/Pop functionality of stack and pattern matching.
+
+?	Programming Language used: C
+?	Program uses three function for implementing push , pop and for checking stack is empty or not.
+?	 At first I prompt user for whether he wants to push element or entering sequence or exit. 
+	For that I take input from user like choice 1 or 2 or 3.
+	If user enters choice other than from display it will give message Enter valid choice.
+?	After selecting 1st choice first program check stack is empty or not. 
+	If stack is empty element is pushed. And if stack is not empty than program compare previously pushed element with current element. 
+	If current element is +1 more than previous element than only current element is valid. 
+	Otherwise program show message u cant pushed current element as per given rules.
+?	After selecting 2nd choice user is prompt for enter sequence of number.
+	After entering sequence first program find minimum no. from descending sequence. 
+	After that from minimum no. to the first element of descending sequence program push all elements in to the stack. 
+	And pop the one element and print it. And also pop another element and assign it to temp variable. 
+	This temp variable is used for the pattern matching purpose.
+?	After all this pattern matching loop if the temp contain -1 (stack is empty) pattern is valid. 
+	Otherwise it is invalid pattern. Pattern is invalid than program show message enter valid pattern.
+?	 3rd option for the exit the program.
+
+
+       
+
+
+ 
+ 
