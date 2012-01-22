@@ -1,0 +1,23 @@
+ 
+
+Algorithm for Game of Elimination
+
+?	Programming Language used: JAVA
+?	At first I defined a class called game that contains one array for number of player. Its length is defined by user using command line argument.
+?	Constructor of game class assign 1 to all players means first entire array is initialized with 1, 1, . .
+?	And game class also contain one method called winner which check who is winner by finding at the end of program which array position contain value 1
+	and returning that position and other eliminated player contain value 0.
+?	Main program first take to arguments from user first is for no. of player and second is for defining random no N.
+?	Ex.  JAVA game 5 3 
+	Here 5 is no. of player and N is 3.
+
+?	Here 3 variable is taken is count that is pointer in array ,
+	incr for increment in the N value and third variable  c is initialized with assigning number of player to it.
+?	Variable C is track no. of player remaining.
+?	If c>2 condition is wrong than only one player is remaining and he is the winner.
+?	At which position variable p is containing value equal N player  that position is eliminated using assigning 0.
+?	If count variable value is greater or equal to M (Number of player) than count value is modulated by M value.
+?	By applying this algorithm at the end user find the position at which player will be winner.
+
+
+ 
